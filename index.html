@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
- <head><!--  šèøžýŠÈØŽÝ -->
+ <head>
   <meta name="generator" content="PSPad editor, www.pspad.com" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   
@@ -12,14 +12,18 @@
   
  </head>
  <body> 
+ <div id="fix-menu">
+    <div class="multi-button">
+        <button id="ab"><a href="#about">About</a></button>
+        <button id="sk"><a href="#skills">Skills</a></button>
+        <button id="pr"><a href="#projects">Projects</a></button>
+        <button id="ho"><a href="#hobbies">Hobbies</a></button>
+        <button id="co"><a href="#contact">Contact</a></button>
+    </div>
+ </div>
+ 
     <div id="first_open_site">    
         <div id="header">
-            <div class="multi-button">
-                <button id="ab"><a href="#about">About</a></button>
-                <button id="sk"><a href="#skills">Skills</a></button>
-                <button id="pr"><a href="#projects">Projects</a></button>
-                <button id="co"><a href="#contact">Contact</a></button>
-            </div>
         </div>        
         <div id="hi">
             <div id='stars'></div>
@@ -29,17 +33,18 @@
                 <h1>Hi, I'm Gabriel!</h1>
                 <p>junior software developer</p>
             </div>
-        </div>        
+        </div> 
+        <img id="proLinkedin" src="images/foto.jpg" alt="bla" />
     </div>
     
     <div id="about">
        <div id="in_about">
        <h1>About Me</h1><p><br /></p>
        <p>
-       <img src="images/foto.jpg" alt="portrait" />
+       <img src="images/myfoto.jpg" alt="portrait" />
        <br /><br />I've only been developing software for a while, but I'm happy to do it. <br /> <br />
-            I'm currently studying computer programming at Technical university of Ostrava. I'm a husband, dad and I believe I will be a professional software developer soon. I have worked as a mining electrician for ten years and now I want to do what I enjoy. <br /><br />
-            At this time I'm also studying English intensively.
+            I'm currently studying computer programming at Technical university of Ostrava. I'm a husband, dad and I believe I will become a professional software developer soon. I worked as a mining electrician for ten years and now I want to do what I enjoy. <br /><br />
+            At this time I'm also attending an individual English course.
        </p>
        </div>
     </div>
@@ -52,7 +57,7 @@
     <div class="brent"><p>C#</p>
     </div>
     <div class="exp">
-        <div id="cs_exp">
+        <div class="style_exp" id="cs_exp">
         </div>
     </div>
     <p id="noob">noob</p><p id="expert">expert</p>
@@ -63,7 +68,7 @@
     <div class="brent"><p>Java</p>
     </div>
     <div class="exp">
-        <div id="cs_exp">
+        <div class="style_exp" id="java_exp">
         </div>
     </div>
     <p id="noob">noob</p><p id="expert">expert</p>
@@ -74,7 +79,7 @@
     <div class="brent"><p>Python</p>
     </div>
     <div class="exp">
-        <div id="cs_exp">
+        <div class="style_exp" id="python_exp">
         </div>
     </div>
     <p id="noob">noob</p><p id="expert">expert</p>
@@ -88,7 +93,7 @@ Databases:
     <div class="brent"><p>Access</p>
     </div>
     <div class="exp">
-        <div id="cs_exp">
+        <div class="style_exp" id="access_exp">
         </div>
     </div>
     <p id="noob">noob</p><p id="expert">expert</p>
@@ -99,7 +104,7 @@ Databases:
     <div class="brent"><p>Oracle Database</p>
     </div>
     <div class="exp">
-        <div id="cs_exp">
+        <div class="style_exp" id="oracle_exp">
         </div>
     </div>
     <p id="noob">noob</p><p id="expert">expert</p>
@@ -110,7 +115,7 @@ Databases:
     <div class="brent"><p>MS SQL Server</p>
     </div>
     <div class="exp">
-        <div id="cs_exp">
+        <div class="style_exp" id="ms-sql_exp">
         </div>
     </div>
     <p id="noob">noob</p><p id="expert">expert</p>
@@ -121,7 +126,7 @@ Databases:
     <div class="brent"><p>PL/SQL</p>
     </div>
     <div class="exp">
-        <div id="cs_exp">
+        <div class="style_exp" id="pl_exp">
         </div>
     </div>
     <p id="noob">noob</p><p id="expert">expert</p>
@@ -136,7 +141,7 @@ Web Technologies:
     <div class="brent"><p>HTML5</p>
     </div>
     <div class="exp">
-        <div id="cs_exp">
+        <div class="style_exp" id="html_exp">
         </div>
     </div>
     <p id="noob">noob</p><p id="expert">expert</p>
@@ -147,7 +152,7 @@ Web Technologies:
     <div class="brent"><p>CSS3</p>
     </div>
     <div class="exp">
-        <div id="cs_exp">
+        <div class="style_exp" id="css_exp">
         </div>
     </div>
     <p id="noob">noob</p><p id="expert">expert</p>
@@ -158,7 +163,7 @@ Web Technologies:
     <div class="brent"><p>Java Script</p>
     </div>
     <div class="exp">
-        <div id="cs_exp">
+        <div class="style_exp" id="js_exp">
         </div>
     </div>
     <p id="noob">noob</p><p id="expert">expert</p>
@@ -169,7 +174,7 @@ Web Technologies:
     <div class="brent"><p>PHP</p>
     </div>
     <div class="exp">
-        <div id="cs_exp">
+        <div class="style_exp" id="php_exp">
         </div>
     </div>
     <p id="noob">noob</p><p id="expert">expert</p>
@@ -180,7 +185,7 @@ Web Technologies:
     <div class="brent"><p>jQuery</p>
     </div>
     <div class="exp">
-        <div id="cs_exp">
+        <div class="style_exp" id="jquery_exp">
         </div>
     </div>
     <p id="noob">noob</p><p id="expert">expert</p>
@@ -191,7 +196,7 @@ Web Technologies:
     <div class="brent"><p>React</p>
     </div>
     <div class="exp">
-        <div id="cs_exp">
+        <div class="style_exp" id="react_exp">
         </div>
     </div>
     <p id="noob">noob</p><p id="expert">expert</p>
@@ -201,7 +206,7 @@ Web Technologies:
     <div class="brent"><p>Bootstrap</p>
     </div>
     <div class="exp">
-        <div id="cs_exp">
+        <div class="style_exp" id="bootstrap_exp">
         </div>
     </div>
     <p id="noob">noob</p><p id="expert">expert</p>
@@ -216,7 +221,7 @@ Mobile Aplications:
     <div class="brent"><p>Xamarin</p>
     </div>
     <div class="exp">
-        <div id="cs_exp">
+        <div class="style_exp" id="xamarin_exp">
         </div>
     </div>
     <p id="noob">noob</p><p id="expert">expert</p>
@@ -227,7 +232,7 @@ Mobile Aplications:
     <div class="brent"><p>Android Studio</p>
     </div>
     <div class="exp">
-        <div id="cs_exp">
+        <div class="style_exp" id="android_exp">
         </div>
     </div>
     <p id="noob">noob</p><p id="expert">expert</p>
@@ -241,21 +246,115 @@ Mobile Aplications:
        <h1>My Projects</h1>
        <h4>I'm working on it...</h4>
        <div id="in_projects">
-            <div class="flex-item" id="fi1"><br /><h3>Project Name 1</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
-            <div class="flex-item" id="fi2"><br /><h3>Project Name 2</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
-            <div class="flex-item" id="fi3"><br /><h3>Project Name 3</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
-            <div class="flex-item" id="fi4"><br /><h3>Project Name 4</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
-            <div class="flex-item" id="fi1"><br /><h3>Project Name 1</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
-            <div class="flex-item" id="fi2"><br /><h3>Project Name 2</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
-            <div class="flex-item" id="fi3"><br /><h3>Project Name 3</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
-            <div class="flex-item" id="fi4"><br /><h3>Project Name 4</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
+            <div class="flex-item" id="pr1"><br /><h3>Project Name 1</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
+            <div class="flex-item" id="pr2"><br /><h3>Project Name 2</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
+            <div class="flex-item" id="pr3"><br /><h3>Project Name 3</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
+            <div class="flex-item" id="pr4"><br /><h3>Project Name 4</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
+            <div class="flex-item" id="pr1"><br /><h3>Project Name 5</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
+            <div class="flex-item" id="pr2"><br /><h3>Project Name 6</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
+            <div class="flex-item" id="pr3"><br /><h3>Project Name 7</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
+            <div class="flex-item" id="pr4"><br /><h3>Project Name 8</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
        </div>
     </div>
+    
+    <div id="hobbies">
+        <h1>My Hobbies</h1>
+            
+      <div class="in_hobbies" id="hobbie-geocaching">
+        <a href="javascript:SwapToLeft()"><button id="to_left"><</button></a>
+        <img src="images/geocaching.jpg" />
+        <div id="hobbies-text1">
+            <br />
+            <h2>Geocaching</h2>
+            <br />
+            <br />
+            <br />
+            If the weather is nice, we go to nature with our children and look for a caches.
+        </div>
+        <a href="javascript:SwapToRight()"><button id="to_right">></button></a>      
+      </div>
+      
+      <div class="in_hobbies" id="hobbie-whiskey">
+        <a href="javascript:SwapToLeft()"><button id="to_left"><</button></a>
+        <img src="images/whiskey.jpg" />
+        <div id="hobbies-text1">
+            <br />
+            <h2>Whiskey</h2>
+            <br />
+            <br />
+            <br />
+            <br />
+            I collect quality whiskey.
+        </div>
+        <a href="javascript:SwapToRight()"><button id="to_right">></button></a>       
+      </div>
+      
+      <div class="in_hobbies" id="hobbie-rc">
+        <a href="javascript:SwapToLeft()"><button id="to_left"><</button></a>
+        <img src="images/rc.jpg" />
+        <div id="hobbies-text1">
+            <br />
+            <h2>RC Aircrafts</h2>
+            <br />
+            <br />
+            <br />
+            I'm only a child and I like to play. <br />
+            And my children like to fly too.
+        </div>
+        <a href="javascript:SwapToRight()"><button id="to_right">></button></a>      
+      </div>    
+      
+      <div class="in_hobbies" id="hobbie-fortnite">
+        <a href="javascript:SwapToLeft()"><button id="to_left"><</button></a>
+        <img src="images/fortnite.jpg" />
+        <div id="hobbies-text1">
+            <br />
+            <h2>Fortnite</h2>
+            <br />
+            <br />
+            <br />
+            <br />
+            Sometimes I play Fortnite with my son.
+        </div>
+        <a href="javascript:SwapToRight()"><button id="to_right">></button></a>       
+      </div>
+      
+      <div class="in_hobbies" id="hobbie-trading">
+        <a href="javascript:SwapToLeft()"><button id="to_left"><</button></a>
+        <img src="images/trading.jpg" />
+        <div id="hobbies-text1">
+            <br />
+            <h2>Trading</h2>
+            <br />
+            <br />
+            <br />
+            If I have time, i try to trade on the stock market.
+            I focus on technical access to markets and automated trading.
+        </div>
+        <a href="javascript:SwapToRight()"><button id="to_right">></button></a>       
+      </div>
+      
+      <div class="in_hobbies" id="hobbie-computers">
+        <a href="javascript:SwapToLeft()"><button id="to_left"><</button></a>
+        <img src="images/pc.jpg" />
+        <div id="hobbies-text1">
+            <br />
+            <h2>Computers</h2>
+            <br />
+            <br />
+            <br />
+            <br />
+            I like to repair and build computers.
+        </div>
+        <a href="javascript:SwapToRight()"><button id="to_right">></button></a>       
+      </div>
+          
+   </div>
     
     <div id="contact"> 
         <div id="in_contact">      
             <br /><br /><h1>Contact</h1><br /><br /><br />
-            <a href="mailto:gabrielkovacs@seznam.cz ">gabrielkovacs@seznam.cz </a> <br /><br />
+            <a href="mailto:gabrielkovacs@seznam.cz ">gabrielkovacs &nbsp;&nbsp;&nbsp;seznam.cz<span style="position:relative; right:94px;">@</span></a> <br /><br />
             <a href="https://www.linkedin.com/in/gabriel-kovacs">LinkedIn</a>  <br />
         </div>        
     </div>
