@@ -5,10 +5,10 @@
   <meta name="generator" content="PSPad editor, www.pspad.com" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   
-  <title>Portfolio</title>
+  <title>Kovács Portfolio</title>
   <link rel="stylesheet" type="text/css" href="index.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="index.js" type="text/javascript"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dancing+Script:wght@546&display=swap" rel="stylesheet">
   
  </head>
  <body> 
@@ -244,16 +244,40 @@ Mobile Aplications:
   
     <div id="projects">
        <h1>My Projects</h1>
-       <h4>I'm working on it...</h4>
+       <h4>I'm working on it...</h4>     
        <div id="in_projects">
-            <div class="flex-item" id="pr1"><br /><h3>Project Name 1</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
-            <div class="flex-item" id="pr2"><br /><h3>Project Name 2</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
-            <div class="flex-item" id="pr3"><br /><h3>Project Name 3</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
-            <div class="flex-item" id="pr4"><br /><h3>Project Name 4</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
-            <div class="flex-item" id="pr1"><br /><h3>Project Name 5</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
-            <div class="flex-item" id="pr2"><br /><h3>Project Name 6</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
-            <div class="flex-item" id="pr3"><br /><h3>Project Name 7</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
-            <div class="flex-item" id="pr4"><br /><h3>Project Name 8</h3><div id="in_flex">Here is a place, where I will describe my project. What kind of programing language I used and what the project is about.</div></div>
+        
+          <div class="flex-item">
+              <img src="images/projects/hotel.jpg" />
+              <div class="work-text-content">
+                <i title="HTML5" class="fab fa-html5 fa-4x ikony"></i>
+                <i title="CSS3" class="fab fa-css3-alt fa-4x ikony"></i>
+                <i title="Bootstrap" class="fab fa-bootstrap fa-4x ikony"></i>
+                <a href="http://gabrielkovacs.wz.cz/bootstrap_project/index.html" title="view project" target="_blank">
+                  <h3>One day Bootstrap project</h3>
+                  <p>Sites of an imaginary hotel, which we had to write for one lesson of the course.</p>
+                </a>
+                <a href="https://github.com/Afareus/Bootstrap-Hotel-sites.git" id="black"  class="btnproj" target="_blank" title="GitHub">Source Code</a>
+              </div> 
+            </div>
+
+            <div class="flex-item">
+              <img src="images/projects/JShra.jpg" />
+              <div class="work-text-content">
+                <i title="HTML5" class="fab fa-html5 fa-4x ikony"></i>
+                <i title="CSS3" class="fab fa-css3-alt fa-4x ikony"></i>
+                <i title="JavaScript" class="fab fa-js fa-4x ikony"></i>
+                <a href="http://gabrielkovacs.wz.cz/hra_js/index.html" title="view project" target="_blank">
+                  <h3>Siple JavaScript Game</h3>
+                  <p>The first to reach 100 scores wins.</p>
+                </a>
+                <a href="https://github.com/Afareus/Simple_JS_game.git" id="black"  class="btnproj" target="_blank" title="GitHub">Source Code</a>
+              </div> 
+            </div>
+          
+
+
+
        </div>
     </div>
     
@@ -353,15 +377,27 @@ Mobile Aplications:
     
     <div id="contact"> 
         <div id="in_contact">      
-            <br /><br /><h1>Contact</h1><br /><br /><br />
-            <a href="mailto:gabrielkovacs@seznam.cz ">gabrielkovacs &nbsp;&nbsp;&nbsp;seznam.cz<span style="position:relative; right:94px;">@</span></a> <br /><br />
-            <a href="https://www.linkedin.com/in/gabriel-kovacs">LinkedIn</a>  <br />
+            <h1>Contact Me</h1>
+            <form method="POST" action="form.php">
+              Your Email:<br /> <input type="email" name="mail" size="50"><br />
+              Subject:<br /> <input type="text" name="subject" size="50"><br />
+              Message:<br /> <textarea name="message" rows="4" cols="52"></textarea><br />
+              <input type="submit" id="submit" value="Submit">
+              </form>
+            <br /><br />
+            <a href="https://www.linkedin.com/in/gabriel-kovacs" title="Linkedin" target="_blank"><i class="fab fa-linkedin fa-2x" ></i></a> &nbsp;
+            <a href="https://github.com/Afareus" title="GitHub" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+              <br />
+            
         </div>        
     </div>
     
     <div id="footer">
     </div>
     
+    <script src="https://kit.fontawesome.com/8cd242bffe.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index.js" type="text/javascript"></script>
 
  </body>
 </html>
