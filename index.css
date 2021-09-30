@@ -400,11 +400,11 @@ background: linear-gradient(138deg, rgba(157,166,255,1) 0%, rgba(52,85,255,1) 45
     }
     
     #cs_exp {
-        width: 35%;
+        width: 65%;
     }
     
     #java_exp {
-        width: 30%;
+        width: 55%;
     }
     
     #python_exp {
@@ -412,15 +412,15 @@ background: linear-gradient(138deg, rgba(157,166,255,1) 0%, rgba(52,85,255,1) 45
     }
     
     #access_exp {
-        width: 30%;
+        width: 40%;
     }
     
     #oracle_exp {
-        width: 6%;
+        width: 55%;
     }
     
     #ms-sql_exp {
-        width: 30%;
+        width: 45%;
     }
     
     #pl_exp {
